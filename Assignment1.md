@@ -14,30 +14,51 @@ import imageio as imageio
 #import pathlib as path
 "uploading/reading images"
 zero_1 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\0_hoi\\fe0d6772ada1ceb0d662c586606a4b1549c63c85.jpg')
+
 zero_2 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\0_hoi\\hoi.jpg')
+
 zero_3 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\0_hoi\\ee1e3a37906aa77883904b624446b456561c3f55.jpg')
+
 zero_4 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\0_hoi\\dfdd463eb3e0b9992a35df3d63ef1d36a93cb21d.jpg')
+
 one_1 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\1\\000af35befdd9ab2e24fac80fb6508dfd1edd172.jpg')
+
 one_2 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\1\\000d3de1f31201b54cf82572c10099606f33c791.jpg')
+
 one_3 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\1\\00a2a1175108c1c63970e01b71e664cccc10e5ec.jpg')
+
 one_4 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\1\\00a68ce6c1b6114f87823136e1b10b487b9358f1.jpg')
+
 plt.imshow(zero_1)
+
 plt.show()
+
 plt.imshow(zero_2)
+
 plt.show()
+
 plt.imshow(zero_3)
+
 plt.show()
+
 plt.imshow(zero_4)
+
 plt.show()
 
 
 plt.imshow(one_1)
+
 plt.show()
+
 plt.imshow(one_2)
 plt.show()
+
 plt.imshow(one_3)
+
 plt.show()
+
 plt.imshow(one_4)
+
 plt.show()
 
 References
