@@ -6,13 +6,21 @@ The current role of the pathologist is reviewing the biological tissue. It is a 
 ## Exercise 3
 A neural network that works with small images for registration is Fully Convolutional Network. This is an neural network that consists of only convolutional layers. It consists of layers that produce outputs for arbitrary input sizes, this enables the model to be trained on small images and then applied to larger images such as whole slide images. [1] In the CAMELYON16 competition this model was used in 2 different methods from two different research groups, HTW-Berlin and CULab III. CULab III obtained the fourth highest FROC score (0.703) of all research teams participating in the competition.  Fully Convolutional NetworkShelhamer et al. explains how fully conventional networks (FNW) operate and where they originate from. Each layer output in a FNW is a convolutional network with a 3D array of size h x w x d, where h and w are spatial dimensions, and d is the feature dimension. The first layer is the image, with pixel size h x w and d features. Location in the higher layers correspond to the locations in the image they are connected to, which are called receptive field. A real-valued loss function composed with a FCN defines a task. The stochastic gradient decent computed on whole images will be the same as the stochastic gradient decent on the receptive fields, which are used as minibatches. When these receptive fields overlap significantly, both feedforward computation and backpropagation are much more efficient when computed layer-by-layer over an entire image.[2]
 ## Exercise 4
+
 CODE:
+
 "first import libaries"
+
 import matplotlib.pyplot as plt
+
 #import numpy as np
+
 import imageio as imageio
+
 #import pathlib as path
+
 "uploading/reading images"
+
 zero_1 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\0_hoi\\fe0d6772ada1ceb0d662c586606a4b1549c63c85.jpg')
 
 zero_2 = imageio.imread('C:\\Users\\s149611\\OneDrive - TU Eindhoven\\Project imaging\\dataaa\\train\\0_hoi\\hoi.jpg')
