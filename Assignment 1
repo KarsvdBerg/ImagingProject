@@ -1,2 +1,8 @@
-# Exercise 1
-The presence of metasases is an important component of breast cancer staging [1]. Pathologist evaluate 
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Exercise 1",
+    "\n",
