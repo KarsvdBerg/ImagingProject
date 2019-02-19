@@ -15,6 +15,7 @@
 |1|256| 0.16680156881958247|0.9499|
 
 Using a different amount of layers with 64 neurons in 1 layer
+
 | Number of layers | Loss test | Accuracy test | Loss train  | Accuracy train |
 | --- | --- | --- | --- | --- |
 | 1 |	0.18280 |	0.9474	| 0.178546 |	0.94925 |
