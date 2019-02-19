@@ -35,6 +35,7 @@ Using a different amount of layers with 64 neurons in 1 layer
 With more layers, the accuracy generally goes up and the loss generally goes down.
 
 |Number of measurement 	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
+| --- | --- | --- | --- | --- |
 |1	|0.12788309332542122	|0.9609|	0.11190716571885126	|0.9679629629629629|
 |2	|0.12318471043929458	|0.963|	0.10236615612440639	|0.9704074074074074|
 |3	|0.12142142855897546	|0.9645|	0.10040908840409031	|0.9708888888888889|
