@@ -30,6 +30,10 @@ from keras.callbacks import TensorBoard
 
 # load the dataset using the builtin Keras method
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
+```
+Add class names for extra visualisation on the data, define the four categories that will be assigned to the
+adequate number.
+```
 class_names = ['loopy digits','vertical digits','curly digits','other','other',
                'curly digits','loopy digits','vertical digits','loopy digits','loopy digits']
 
@@ -45,7 +49,9 @@ print(test_labels.shape)
 plt.figure()
 plt.imshow(train_images[0], cmap='gray_r', vmin=0, vmax=255)
 plt.title('First image in the dataset')
-
+```
+Adding class_names to the for loop to create a 4x4 grid for a little bit extra visualisation 
+```
 # show the first 16 images in the dataset in a 4x4 gird
 fig = plt.figure(figsize=(10,10))
 for n in range(16):
@@ -117,7 +123,10 @@ print(train_labels.shape)
 # since we have 10 different classes, what does this array look like?
 # let's look at the first 20 labels
 print(train_labels[:20]) 
-
+```
+Assign each number to their adequate group, so: 1 and 7 = 0 (vertical digits), 0,6,8 and 9 = 1 (loopy digits)
+2 and 5 = 2 (curly digits) and 3 and 4 = 3 (other) 
+```
 # Convert the new categorical values back to integers 
 # Vertical digits = 0, Loopy digits = 1, Curly digits = 2 and Other = 3
 for n in range(len(train_labels)):
@@ -200,7 +209,9 @@ score = model.evaluate(test_images, test_labels, verbose=0)
 
 print("Loss: ",score[0])
 print("Accuracy: ",score[1])
-
+```
+Visualize and predict the outcome of the new model. The output can be seen in the table below this block of code
+```
 # make prediction 
 predictions = model.predict(test_images)
 
