@@ -29,7 +29,7 @@ Using a different amount of layers with 64 neurons in 1 layer
 | 9 |	0.13278	| 0.9579	| 0.079226 |	0.975 |
 | 10 |	0.11001 |	0.9674	| 0.058272	|0.98288 |
 
-Assignment2.1A.png
+![Screenshot](Assignment2.1A.png)
 
 Assignment2.1B.png
 
