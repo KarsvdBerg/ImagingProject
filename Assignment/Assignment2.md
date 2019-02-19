@@ -19,3 +19,24 @@
 |1|256| 0.16680156881958247|0.9499|
 
 ## Exercise 3
+| Prediction label | Test labels | Categorical prediction label |
+| 0 | [1. 0. 0. 0.] | vertical digits |
+| 2 | [0. 0. 1. 0.] | loopy digits |
+| 0 | [1. 0. 0. 0.] | vertical digits |
+| 1 | [0. 1. 0. 0.] | other |
+| 3 | [0. 0. 0. 1.] | curly digits |
+| 0 | [1. 0. 0. 0.] | vertical digits |
+| 3 | [0. 0. 0. 1.] | curly digits |
+| 1 | [0. 1. 0. 0.] | other |
+| 1 | [0. 0. 1. 0.] | other |
+| 1 | [0. 1. 0. 0.] | other |
+| 1 | [0. 1. 0. 0.] | other |
+| 1 | [0. 1. 0. 0.] | other |
+| 1 | [0. 1. 0. 0.] | other | 
+| 1 | [0. 1. 0. 0.] | other |
+| 0 | [1. 0. 0. 0.] | vertical digits |
+| 2 | [0. 0. 1. 0.] | loopy digits |
+| 1 | [0. 1. 0. 0.] | other |
+| 0 | [1. 0. 0. 0.] | vertical digits |
+| 3 | [0. 0. 0. 1.] | curly digits |
+|3 | [0. 0. 0. 1.] = curly digits
