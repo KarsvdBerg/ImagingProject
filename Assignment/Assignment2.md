@@ -14,6 +14,10 @@
 |1|256| 0.16680156881958247|0.9499|
 
 ## Exercise 2
+1.	loss: 0.3237 - acc: 0.9104 - val_loss: 0.3462 - val_acc: 0.9023
+2.	loss: 0.1105 - acc: 0.9674 - val_loss: 0.1362 - val_acc: 0.9610
+3.	loss: 0.2696 - acc: 0.9248 - val_loss: 0.3037 - val_acc: 0.9135
+
 
 
 ## Exercise 3
