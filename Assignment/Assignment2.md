@@ -30,10 +30,7 @@ Using a different amount of layers with 64 neurons in 1 layer
 | 10 |	0.11001 |	0.9674	| 0.058272	|0.98288 |
 
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1A.png "Logo Title Text 1")
-
-(Assignment2.1A.png)
-
-Assignment2.1B.png
+![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1B.png "Logo Title Text 1")
 
 ## Exercise 2
 1.	loss: 0.3237 - acc: 0.9104 - val_loss: 0.3462 - val_acc: 0.9023
