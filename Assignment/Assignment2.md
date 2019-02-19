@@ -32,6 +32,17 @@ Using a different amount of layers with 64 neurons in 1 layer
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1A.png "Logo Title Text 1")
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1B.png "Logo Title Text 1")
 
+With more layers, the accuracy generally goes up and the loss generally goes down.
+
+|Number of measurement 	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
+|1	|0.12788309332542122	|0.9609|	0.11190716571885126	|0.9679629629629629|
+|2	|0.12318471043929458	|0.963|	0.10236615612440639	|0.9704074074074074|
+|3	|0.12142142855897546	|0.9645|	0.10040908840409031	|0.9708888888888889|
+|4	|0.12487356092911214	|0.9612| 0.10026886706495726	|0.9707222222222223|
+|5	|0.12292111209668219	|0.9609|	0.10251085377815697	|0.9705370370370371|
+|Standard deviation|	0.002465|	0.00160156	0.00482022	|0.00121056|
+
+
 ## Exercise 2
 1.	loss: 0.3237 - acc: 0.9104 - val_loss: 0.3462 - val_acc: 0.9023
 2.	loss: 0.1105 - acc: 0.9674 - val_loss: 0.1362 - val_acc: 0.9610
