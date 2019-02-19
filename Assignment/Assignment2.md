@@ -32,7 +32,7 @@ Using a different amount of layers with 64 neurons in 1 layer
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1A.png "Logo Title Text 1")
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1B.png "Logo Title Text 1")
 
-With more layers, the accuracy generally goes up and the loss generally goes down.
+With more layers, the accuracy generally goes up and the loss generally goes down. To see if the found differences are relevant or if the standart deviation is around the same value. 
 
 |Number of measurement 	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
 | --- | --- | --- | --- | --- |
@@ -43,6 +43,7 @@ With more layers, the accuracy generally goes up and the loss generally goes dow
 |5	|0.12292111209668219	|0.9609|	0.10251085377815697	|0.9705370370370371|
 |Standard deviation|	0.002465|	0.00160156	|0.00482022	|0.00121056|
 
+Now the distribution of neurons in 3 layers is changes and the total number of neurons is kept at 192
 
 |Number of neurons layer 1|	Number of neurons layer 2|	Number of neurons layer 3	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
 | --- | --- | --- | --- | --- | --- | --- |
