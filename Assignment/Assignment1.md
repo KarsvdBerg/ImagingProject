@@ -21,6 +21,7 @@ A neural network that works with small images for registration is Fully Convolut
 ## Exercise 4
 
 CODE:
+```
 
 "first import libaries"
 
@@ -67,6 +68,8 @@ plt.imshow(zero_4)
 plt.show()
 
 
+
+
 plt.imshow(one_1)
 
 plt.show()
@@ -82,4 +85,4 @@ plt.imshow(one_4)
 
 plt.show()
 
-
+```
