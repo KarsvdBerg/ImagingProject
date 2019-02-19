@@ -20,6 +20,7 @@
 
 ## Exercise 3
 | Prediction label | Test labels | Categorical prediction label |
+| - | -------| -------------|
 | 0 | [1. 0. 0. 0.] | vertical digits |
 | 2 | [0. 0. 1. 0.] | loopy digits |
 | 0 | [1. 0. 0. 0.] | vertical digits |
@@ -39,4 +40,4 @@
 | 1 | [0. 1. 0. 0.] | other |
 | 0 | [1. 0. 0. 0.] | vertical digits |
 | 3 | [0. 0. 0. 1.] | curly digits |
-|3 | [0. 0. 0. 1.] = curly digits
+|3 | [0. 0. 0. 1.] | curly digits
