@@ -56,6 +56,8 @@ Now the distribution of neurons in 3 layers is changes and the total number of n
 |110	|41	|41	|0.11108	|0.9677	|0.085880	|0.97546|
 |132	|30	|30	|0.11218	|0.9668	|0.084590	|0.97605|
 
+The best model the model with 3 layers with a  110 41 41 distribution. This had a accuracy of 0.9677 and a loss of 0.11108. This is the best model because the loss is relatively low and the accuracy relatively high. For instance the model with 10 layers of 64 neurons had a comparable accuracy and loss but than a smaller model is better, because it takes less time to run. 
+
 
 ## Exercise 2
 1.	loss: 0.3237 - acc: 0.9104 - val_loss: 0.3462 - val_acc: 0.9023
