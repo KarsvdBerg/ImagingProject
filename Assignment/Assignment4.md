@@ -44,8 +44,10 @@ When training with the weights set to *None* the validation-loss and -accuracy i
   225/225 [==============================] - 47s 209ms/step - loss: 0.4098 - acc: 0.8212 - val_loss: 0.5158 - val_acc: 0.8075
 ```
 ## Exercise 3
-
+Dropout is a regulation method that prevents neural networks from overfitting [2]. In this technique randomly selects neurons that are ignored during training. By doing this you create a neural network that won't be to specialized to the training data that is used. When leaving certain neurons out of the training other neighbouring neurons have to step in. The effect is that the network  becomes less sensitive to the specific weights of neurons.[3]
 
 ## References
 
 [1] Torrey, L., Shavlik, J. (2009). Transfer Learning. University of Wisconsin
+[2] Documentation python *help(Dropout)* 
+[3] Dropout Regularization in Deep Learning Models With Keras. (n.d.). Retrieved February 24, 2019, from https://machinelearningmastery.com/dropout-regularization-deep-learning-models-keras/
