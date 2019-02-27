@@ -44,7 +44,8 @@ When training with the weights set to *None* the validation-loss and -accuracy i
   225/225 [==============================] - 47s 209ms/step - loss: 0.4098 - acc: 0.8212 - val_loss: 0.5158 - val_acc: 0.8075
 ```
 ## Exercise 3
-Dropout is a regulation method that prevents neural networks from overfitting [2]. In this technique randomly selects neurons that are ignored during training. By doing this you create a neural network that won't be to specialized to the training data that is used. When leaving certain neurons out of the training other neighbouring neurons have to step in. The effect is that the network  becomes less sensitive to the specific weights of neurons.[3] Removing the dropout layer in the neural network causes an increase in the loss, and thus a worse model. The validation loss has an optimal and final value of **val_loss = 0.6537** with a accuracy of **val_acc = 0.7538**, which is relatively high. 
+Dropout is a regulation method that prevents neural networks from overfitting [2]. In this technique randomly selects neurons that are ignored during training. By doing this you create a neural network that won't be to specialized to the training data that is used. When leaving certain neurons out of the training other neighbouring neurons have to step in. The effect is that the network  becomes less sensitive to the specific weights of neurons.[3] Removing the dropout layer in the neural network causes an increase in the loss, and thus a worse model. The validation loss has an optimal and final value of **val_loss = 0.6537** with a accuracy of **val_acc = 0.7538**. The training loss has an optimal and final value of **loss = 0.4009** with an accuracy of **acc = 0.8208**. The results show that 
+**loss > val_loss** which could be linked to overfitting.
 
 ## References
 
