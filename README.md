@@ -5,7 +5,7 @@
 
 -Assignment 4.2 + Assignment 4.3              -> Kars
 
--Methodes/theorie zoeken voor hoofdassignment -> Roderik, Suzanne, Romy
+-Methodes/theorie zoeken voor hoofdassignment -> Roderick, Suzanne, Romy
 
 # To Do voor na de vakantie:
 - Methodes uitzoeken van deep learning, met (eventueel) code erbij om te kijken hoe we het toe kunnen passen.
