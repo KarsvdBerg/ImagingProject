@@ -8,5 +8,7 @@
 -Methodes/theorie zoeken voor hoofdassignment -> Roderik, Suzanne, Romy
 
 # To Do voor na de vakantie:
-Methodes uitzoeken van deep learning, met (eventueel) code erbij om te kijken hoe we het toe kunnen passen.
+- Methodes uitzoeken van deep learning, met (eventueel) code erbij om te kijken hoe we het toe kunnen passen.
+- beetje spelen met het model wat we hebben.
+- Assignment 3 afmaken.
 
