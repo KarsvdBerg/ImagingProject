@@ -2,7 +2,7 @@ Our task: develop a deep neural network model that can identify metastases in im
 
 https://eu.udacity.com/course/deep-learning--ud730 --> this is a free course about machine learning and deep learning. Maybe it's interesting.
 
-ZSO 01-03
+_ZSO 01-03
 
 Neural networks:
 - Are a class of models within machine learning
@@ -29,7 +29,7 @@ There are multiple methods which we can use for a CNN.
 - Long short-term memory.
 - Transfer learning. See Assignment 4.1
 
-ZSO 13-03
+_ZSO 13-03
 
 About batch normalization
 https://gluon.mxnet.io/chapter04_convolutional-neural-networks/cnn-batch-norm-scratch.html 
