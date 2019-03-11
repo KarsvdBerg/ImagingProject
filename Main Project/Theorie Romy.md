@@ -2,6 +2,7 @@ Our task: develop a deep neural network model that can identify metastases in im
 
 https://eu.udacity.com/course/deep-learning--ud730 --> this is a free course about machine learning and deep learning. Maybe it's interesting.
 
+ZSO 01-03
 Neural networks:
 - Are a class of models within machine learning
 - Are a specific set of algorithms
@@ -26,3 +27,9 @@ There are multiple methods which we can use for a CNN.
 - Batch normalization. Helps relaxing the deep networks a little, because they require careful tuning of weight initialization and learning parameters. We've done this in assignment 3 by using mini batches. By this process, higher learning rates can be used.
 - Long short-term memory.
 - Transfer learning. See Assignment 4.1
+
+ZSO 13-03
+
+About batch normalization
+https://gluon.mxnet.io/chapter04_convolutional-neural-networks/cnn-batch-norm-scratch.html 
+https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16
