@@ -3,6 +3,7 @@ Our task: develop a deep neural network model that can identify metastases in im
 https://eu.udacity.com/course/deep-learning--ud730 --> this is a free course about machine learning and deep learning. Maybe it's interesting.
 
 ZSO 01-03
+
 Neural networks:
 - Are a class of models within machine learning
 - Are a specific set of algorithms
