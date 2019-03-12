@@ -2,25 +2,15 @@
 
 Deep learning has Artificial neural networks are common machine learning techniques, that simulate the mechanisms of learning [1]. Neural networks can contain more layers. Convolution neural network is a deep learning algorithm that takes an image as an input. There are various architectures of CNNs available which have been key in building algorithms which power and shall power AI as a whole in the foreseeable future. Some of them have been listed below[3][4]:
 
-1. LeNet-5
+1. *LeNet-5*: 7-level convolutional network by Lecun et al. Recognises hand written number on checks. 
 
-7-level convolutional network by Lecun et al. Recognises hand written number on checks. 
+2. *AlexNet*:Combination of Max-Pooing, dropout and data augumentation, ReLu axtivations, SGD with momentum.Trained for 6 days (???)
 
-2. AlexNet
+3. *GGNet*: 16 convolutional layers. Very uniform architecture. 138 million parameters.
 
-Combination of Max-Pooing, dropout and data augumentation, ReLu axtivations, SGD with momentum.Trained for 6 days (???)
+4. *GoogLeNet*: 22 layers with reduced parameters (4 million)
 
-3. VGGNet
-
-16 convolutional layers. Very uniform architecture. 138 million parameters.
-
-4. GoogLeNet
-
-22 layers with reduced parameters (4 million)
-
-5. ResNet
-
-Skips connections and features heavy batch normalization.
+5. *ResNet*: Skips connections and features heavy batch normalization.
 
 
 
@@ -41,7 +31,26 @@ It has control on deciding when to let the input enter the neuron.
 It has control on deciding when to remember what was computed in the previous time step.
 It has control on deciding when to let the output pass on to the next time stamp.
 10. Transfer learning
- 
+
+# Deep Learning Code
+From this site I retrieved some lines of code that I think will work in our code, as in our code, the first layers are also added by model.add:https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python
+
+```fashion_model = Sequential()
+fashion_model.add(Conv2D(32, kernel_size=(3, 3),activation='linear',input_shape=(28,28,1),padding='same'))
+fashion_model.add(LeakyReLU(alpha=0.1))
+fashion_model.add(MaxPooling2D((2, 2),padding='same'))
+fashion_model.add(Conv2D(64, (3, 3), activation='linear',padding='same'))
+fashion_model.add(LeakyReLU(alpha=0.1))
+fashion_model.add(MaxPooling2D(pool_size=(2, 2),padding='same'))
+fashion_model.add(Conv2D(128, (3, 3), activation='linear',padding='same'))
+fashion_model.add(LeakyReLU(alpha=0.1))                  
+fashion_model.add(MaxPooling2D(pool_size=(2, 2),padding='same'))
+fashion_model.add(Flatten())
+fashion_model.add(Dense(128, activation='linear'))
+fashion_model.add(LeakyReLU(alpha=0.1))                  
+fashion_model.add(Dense(num_classes, activation='softmax'))```
+
+
 # References
 [1] https://books.google.nl/books?id=achqDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&sa=X&ved=0ahUKEwjoypnIhd7gAhVD7eAKHYueAj8Q6AEIOjAC#v=onepage&q=deep%20learning&f=false 
 
