@@ -32,15 +32,6 @@ It has control on deciding when to remember what was computed in the previous ti
 It has control on deciding when to let the output pass on to the next time stamp.
 10. Transfer learning
 
-# References
-[1] https://books.google.nl/books?id=achqDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&sa=X&ved=0ahUKEwjoypnIhd7gAhVD7eAKHYueAj8Q6AEIOjAC#v=onepage&q=deep%20learning&f=false 
-
-[2]https://medium.com/cracking-the-data-science-interview/the-10-deep-learning-methods-ai-practitioners-need-to-apply-885259f402c1 
-
-[3] https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
-
-[4] https://medium.com/@sidereal/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5
-
 # Deep Learning Code
 From this site I retrieved some lines of code that I think will work in our code, as in our code, the first layers are also added by model.add:https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python
 
@@ -78,6 +69,14 @@ model.add(layers.Dense(units=84, activation='relu'))
 model.add(layers.Dense(units=10, activation = 'softmax'))
 ```
 
+# References
+[1] https://books.google.nl/books?id=achqDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&sa=X&ved=0ahUKEwjoypnIhd7gAhVD7eAKHYueAj8Q6AEIOjAC#v=onepage&q=deep%20learning&f=false 
+
+[2]https://medium.com/cracking-the-data-science-interview/the-10-deep-learning-methods-ai-practitioners-need-to-apply-885259f402c1 
+
+[3] https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+
+[4] https://medium.com/@sidereal/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5
 
 
 
