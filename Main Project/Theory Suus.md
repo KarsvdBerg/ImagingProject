@@ -57,5 +57,27 @@ fashion_model.add(MaxPooling2D(pool_size=(2, 2),padding='same'))
 fashion_model.add(Flatten())
 fashion_model.add(Dense(128, activation='linear'))
 fashion_model.add(LeakyReLU(alpha=0.1))                  
-fashion_model.add(Dense(num_classes, activation='softmax'))```
+fashion_model.add(Dense(num_classes, activation='softmax')
+```
+The following code is a code I found on a site, this is based on the LeNet code, using Keras Retreved from the following site:https://medium.com/@mgazar/lenet-5-in-9-lines-of-code-using-keras-ac99294c8086.
+
+```model = keras.Sequential()
+
+model.add(layers.Conv2D(filters=6, kernel_size=(3, 3), activation='relu', input_shape=(32,32,1)))
+model.add(layers.AveragePooling2D())
+
+model.add(layers.Conv2D(filters=16, kernel_size=(3, 3), activation='relu'))
+model.add(layers.AveragePooling2D())
+
+model.add(layers.Flatten())
+
+model.add(layers.Dense(units=120, activation='relu'))
+
+model.add(layers.Dense(units=84, activation='relu'))
+
+model.add(layers.Dense(units=10, activation = 'softmax'))
+```
+
+
+
 
