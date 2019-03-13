@@ -1,7 +1,7 @@
 '''
 TU/e BME Project Imaging 2019
 Convolutional neural network for PCAM
-Author: Suzanne Wetstein
+Author: Roderick
 '''
 
 import os
