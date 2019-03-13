@@ -28,6 +28,7 @@ Vragen aan Mitko:
 - moet er een onderzoeksvraag gedefinieerd worden?
   - een doel kiezen om ons echt op te focussen, bv hoge accuracy in snelste tijd.
 - Mogen we allemaal kleine dingen aanpassen / toevoegen aan het model en is dat prima of moeten we echt 1 specifieke methode toepassen.
+- hoe moet het report op github komen te staan ? In artikel vorm of gewoon als tekst
 
 To Do:
 - 
