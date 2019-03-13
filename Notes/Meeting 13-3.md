@@ -12,6 +12,7 @@ Parameters om aan te passen:
 - hoeveel lagen
 - welke lagen
 - patch size
+- learning rate
  
 Parameter methode:
 
@@ -28,15 +29,19 @@ Vragen aan Mitko:
   - een doel kiezen om ons echt op te focussen, bv hoge accuracy in snelste tijd.
 - Mogen we allemaal kleine dingen aanpassen / toevoegen aan het model en is dat prima of moeten we echt 1 specifieke methode toepassen.
 
-To Do 15-03:
+To Do:
 - 
-To Do 20-03:
+*15-03:*
+- learning rate aanpassen: Roderick
+- 
+*20-03:*
 
-To Do 22-03:
+*22-03:*
 
-To Do 27-03:
+*27-03:*
 
 Deadlines:
+-
 - 20-03:
   - introductie af (report)
   - concrete methode vaststellen
