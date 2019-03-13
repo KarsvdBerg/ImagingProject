@@ -33,9 +33,12 @@ To Do:
 - 
 *15-03:*
 - learning rate aanpassen: Roderick
-- 
+- fully connected layer toevoegen: Janneke
+- beginnen aan introduction : Suzanne
+- ROC curven fixen: Kars
 *20-03:*
-
+- introductie afmaken: Suzanne + Romy
+- begin maken aan methode (model wat we nu al hebben): Suzanne + Romy
 *22-03:*
 
 *27-03:*
