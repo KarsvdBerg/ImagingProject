@@ -68,6 +68,7 @@ model.add(layers.Dense(units=84, activation='relu'))
 
 model.add(layers.Dense(units=10, activation = 'softmax'))
 ```
+I found a paper on histopathological cancer diagnosis. A deep learning technique, given by a code in the attachments of the paper, was compared to examination of a resident pathology. The CNN consists of 4 convolutional layers, 3 max-pooling layers and lastly 3 classification layers. See the paper for the full code. For the CNN they make use of the open-source 'deep-learning'libraries Theano 0.7 and pylearn 0.1. As it is impossible to put the whole slide images in the network at once, random small patches were extracted for training. Whole-slide results can consequently be obtained by applying the network to every pixel [5]. 
 
 # References
 [1] https://books.google.nl/books?id=achqDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&sa=X&ved=0ahUKEwjoypnIhd7gAhVD7eAKHYueAj8Q6AEIOjAC#v=onepage&q=deep%20learning&f=false 
@@ -77,6 +78,11 @@ model.add(layers.Dense(units=10, activation = 'softmax'))
 [3] https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
 [4] https://medium.com/@sidereal/cnns-architectures-lenet-alexnet-vgg-googlenet-resnet-and-more-666091488df5
+
+[5]  Litjens, G. et al. Deep learning as a tool for increased accuracy and efficiency of histopathological diagnosis. Sci. Rep. 6, 26286; doi: 10.1038/srep26286 (2016).
+
+https://arxiv.org/pdf/1409.1556.pdf --> Article on effect of convolutional network depth on accuracy in large scale image recognition. 'Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3×3) convolution filters, which shows that a significant improvementon the prior-art configurations can be achieved by pushing the depth to 16–19
+weight layers.' So a 16-19 weight layers optimal for image recognition of a large scale.
 
 
 
