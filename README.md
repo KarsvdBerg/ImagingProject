@@ -12,3 +12,6 @@
 - beetje spelen met het model wat we hebben.
 - Assignment 3 afmaken.
 
+# Possible research questions
+With what parameters set at what values does a model overfit?
+
