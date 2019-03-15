@@ -14,4 +14,8 @@
 
 # Possible research questions
 With what parameters set at what values does a model overfit?
+  -Learning rate
+  -Batch size
+  -Groter model
+  
 
