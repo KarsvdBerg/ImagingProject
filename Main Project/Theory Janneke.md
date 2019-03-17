@@ -41,4 +41,5 @@ paper: https://ieeexplore.ieee.org/abstract/document/8512386
   - smaller filter size can be used to retain more pixel information
   - back to back convolution layer with padding can be used to maintain more pixel information in shrinking spatial information but increase model layer depth
   -Adding more than two max pool layers with stride 2 will also increase objective loss resulting low classifier accuracy
+  - had 3 classes (cancer cells)
   -they use 8 convulation layers, 3 max pooling layers (c,c,p,c,c,p,c,c,c,p,c) and one fully connected layer
