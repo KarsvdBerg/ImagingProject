@@ -32,3 +32,13 @@ recognition. In Proceedings of the International Conference on Image Processing 
 paper: https://www.mdpi.com/2076-3417/9/3/427
 
 -max pooling prevents overfitting 
+
+paper: https://ieeexplore.ieee.org/abstract/document/8512386
+
+-data augmentation can be used to increase model complexity and reduce overfitting
+  - unsing rectified linear unit (ReLu) can reduce training time
+  - dropout layer can be added to reduce overfitting in imbalance dataset
+  - smaller filter size can be used to retain more pixel information
+  - back to back convolution layer with padding can be used to maintain more pixel information in shrinking spatial information but increase model layer depth
+  -Adding more than two max pool layers with stride 2 will also increase objective loss resulting low classifier accuracy
+  -they use 8 convulation layers, 3 max pooling layers (c,c,p,c,c,p,c,c,c,p,c) and one fully connected layer
