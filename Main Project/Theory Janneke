@@ -2,4 +2,15 @@ paper: https://link.springer.com/chapter/10.1007/978-3-030-00214-5_150
 
 - relu linear activation function is most frequently used
 
-p
+paper: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.124.1000&rep=rep1&type=pdf
+
+-Overfitting happens if the number of hidden neurons is too big.
+-Sigmoidal acitvation zorgt voor faster learning
+-they use fletcher-Reeves conjugate gradient
+- the learning rate plays major role in NN performances, choosing a wrong value can conclude in unstability of the algorithm
+
+paper: https://ieeexplore.ieee.org/abstract/document/8448814
+
+- Since the image of melanoma cancer has no distinct feature, therefore, deep layer CNN cannot perform well for melanoma cancer detection due to overfitting problem. 
+This problem arises when the model is trained too well. Consequently, it starts to have deleterious effect on the results. 
+It is suggested that CNN architecture is more suitable for identifying texture-based images and it can avoid overfitting problems.
