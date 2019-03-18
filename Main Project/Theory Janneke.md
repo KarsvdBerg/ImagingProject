@@ -27,7 +27,7 @@ paper: Stanitsas, P.; Cherian, A.; Truskinovsky, A. Active convolutional neural 
 recognition. In Proceedings of the International Conference on Image Processing (ICIP), Beijing, China,
 17–20 September 2017.
 
--use multistage training scheme to overcome the overfitting problem
+- use multistage training scheme to overcome the overfitting problem
 
 paper: https://www.mdpi.com/2076-3417/9/3/427
 
@@ -53,7 +53,7 @@ paper: 	https://ieeexplore.ieee.org/abstract/document/7727519 2016
   
 paper:  L.G. Hafemann, L.S. Oliveira, P. Cavalin, " Forest species recognition using deep convolutional neural networks", International conference of pattern recognition, pp. 1103-1107, 2014
  
- -best results were achieved by reducing the dimensionality of the images, in this work the original 700×460 images were reduced to 350×230, resampling using pixel area relation. This can prevent the model from overfitting the training set.
+ - best results were achieved by reducing the dimensionality of the images, in this work the original 700×460 images were reduced to 350×230, resampling using pixel area relation. This can prevent the model from overfitting the training set.
 
 paper: https://www.sciencedirect.com/science/article/pii/S0925231216001004
 
