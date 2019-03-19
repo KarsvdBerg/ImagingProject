@@ -2,7 +2,7 @@ Our task: develop a deep neural network model that can identify metastases in im
 
 https://eu.udacity.com/course/deep-learning--ud730 --> this is a free course about machine learning and deep learning. Maybe it's interesting.
 
-### _ZSO 01-03_
+## _ZSO 01-03_
 
 Neural networks:
 - Are a class of models within machine learning
@@ -29,13 +29,13 @@ There are multiple methods which we can use for a CNN.
 - Long short-term memory.
 - Transfer learning. See Assignment 4.1
 
-### _ZSO 13-03_
+## _ZSO 13-03_
 
 About batch normalization
 https://gluon.mxnet.io/chapter04_convolutional-neural-networks/cnn-batch-norm-scratch.html 
 https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c823c16
 
-### _ZSO 20-03_
+## _ZSO 20-03_
 
 Onderstaande puntjes zijn handig voor in de Methode. Bovendien kunnen sommige dingen misschien worden gebruikt om onze code te verduidelijken. 
 * The model type that we will be using is Sequential. Sequential is the easiest way to build a model in Keras. It allows you to build a model layer by layer.
@@ -46,3 +46,7 @@ Onderstaande puntjes zijn handig voor in de Methode. Bovendien kunnen sommige di
 * in model.add(Dense ..... activation = ...) we have an activation function. In our model we have used ReLU and Sigmoid. Instead of using Sigmoid, Softmax can also be used. Softmax ensures that the output can be interpreted as probabilities by suming up the output up to 1. The Dense is a standard layer type. It will be used for our output layer.
 
 #### Compiling the model
+To compile the model three parameters are taken, namely an optimizer, a loss and a metrics. At the moment we have:
+model.compile(SGD(lr=0.01, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy']) 
+
+The optimizer controls the learning rate. We will be using the Stochastic gradient descent (SGD)
