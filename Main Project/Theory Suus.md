@@ -32,7 +32,7 @@ It has control on deciding when to remember what was computed in the previous ti
 It has control on deciding when to let the output pass on to the next time stamp.
 10. Transfer learning
 
-# Deep Learning Code
+## Deep Learning Code
 From this site I retrieved some lines of code that I think will work in our code, as in our code, the first layers are also added by model.add:https://www.datacamp.com/community/tutorials/convolutional-neural-networks-python
 
 ```fashion_model = Sequential()
