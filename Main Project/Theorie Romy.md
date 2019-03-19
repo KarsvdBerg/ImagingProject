@@ -57,8 +57,12 @@ To see the accuracy score on the validation set when training the model, we use 
 #### Training the model
 We use model.fit() to train our model. We have three epochs, which means that the model will cycle three times trough the data. The model will improve up to a certain point if you run more epochs. After that certain point, the model will stop improving during each epoch. [2] --> WILLEN WIJ HET BIJ 3 HOUDEN OF DAARIN OOK NOG TESTEN?
 
+#### Making predictions
+We use the ROC curve to see the actual predictions are model has made. 
+The ROC curve is the 'Receiver Operating Characteristic' curve and is used to evaluate the quality of the classifier output. The curve has the false positive rates on the x-axis and the true positives on the y-axis. A larger area under the curve is usually better. [4]
 
 ## References
 [1] https://medium.com/cracking-the-data-science-interview/the-10-deep-learning-methods-ai-practitioners-need-to-apply-885259f402c1 
 [2] https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5
 [3] https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
+[4] https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html
