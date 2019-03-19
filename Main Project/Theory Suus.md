@@ -72,6 +72,8 @@ I found a paper on histopathological cancer diagnosis. A deep learning technique
 
 https://cdn.jamanetwork.com/ama/content_public/journal/jama/936626/joi170113supp1_prod.pdf?Expires=2147483647&Signature=C3T3r5K2p0j1I0YUgFQVEmcjFVQJ-RCwaO46SqSesmqQcgYdzVnOhO3ubtApInIzAnDB-LUa0St7p0LjtE9GhQxX5eYtAC6fETgLgGn62tXFKJcXadhZ1P1UOGVds3hLBRsipn0X3g8lwULGA1sLg0csUKUP9ko0KoWO~1Tcwzb9RYu~V8Pur~7ijop5xhncqHfLZFeeI2Fyz9gzdUAAnlO-m0igw85JMuvTqngrdbjD3MtATfH-65f2oKIZEtRxcf56nRRaW5PxuqEl4QphxR30B2p2eYPOTFC8-CQPO1ZDg74CeT6ywGsxURWIWw686QQLPyrMmkUpz8R2HHH79w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA This document showes all the deep learning methods of the CAMELYON16 challenge. Very useful, the parameters that they used are also stated.
 
+## ZSO 19-03: Methods of Deep learning
+
 # References
 [1] https://books.google.nl/books?id=achqDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&sa=X&ved=0ahUKEwjoypnIhd7gAhVD7eAKHYueAj8Q6AEIOjAC#v=onepage&q=deep%20learning&f=false 
 
