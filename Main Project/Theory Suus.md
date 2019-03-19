@@ -12,9 +12,6 @@ Deep learning has Artificial neural networks are common machine learning techniq
 
 5. *ResNet*: Skips connections and features heavy batch normalization.
 
-
-
-
 I found this website with several deep learning methods. Among them was transfer learning. 
 1. Back-propagation
 2. Stochatic gradient descent
@@ -73,6 +70,23 @@ I found a paper on histopathological cancer diagnosis. A deep learning technique
 https://cdn.jamanetwork.com/ama/content_public/journal/jama/936626/joi170113supp1_prod.pdf?Expires=2147483647&Signature=C3T3r5K2p0j1I0YUgFQVEmcjFVQJ-RCwaO46SqSesmqQcgYdzVnOhO3ubtApInIzAnDB-LUa0St7p0LjtE9GhQxX5eYtAC6fETgLgGn62tXFKJcXadhZ1P1UOGVds3hLBRsipn0X3g8lwULGA1sLg0csUKUP9ko0KoWO~1Tcwzb9RYu~V8Pur~7ijop5xhncqHfLZFeeI2Fyz9gzdUAAnlO-m0igw85JMuvTqngrdbjD3MtATfH-65f2oKIZEtRxcf56nRRaW5PxuqEl4QphxR30B2p2eYPOTFC8-CQPO1ZDg74CeT6ywGsxURWIWw686QQLPyrMmkUpz8R2HHH79w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA This document showes all the deep learning methods of the CAMELYON16 challenge. Very useful, the parameters that they used are also stated.
 
 ## ZSO 19-03: Methods of Deep learning
+https://arxiv.org/pdf/1803.0920.pdf 
+
+### Hyperparameters
+'The art of setting the network’s hyper-parameters amounts to ending up at the balance point between
+underfitting and overfitting.'
+1. *Learning Rate*
+2. *Number of hidden units*
+3. *Kernel width*
+4. *Momentum*: Helps to know the direction of the next step with the knowledge of the previous step. Typcal between 0.5-0.9
+5. *Number of epochs*: 
+6. *Batch size*: number of sub samples given to the network. Typical 32,64,128,256.
+
+#### Learning rate
+Usually, a decaying learning rate is preferred.
+If the learning rate is too small, overfitting can occur. Too large training rates will result in a training set that will diverge. Smith (2015) proposes the cyclical learning rates and the learning rate range test as a method to choose the correct learning rate. Cyclical learning rate specify a minimum and maximum learning rate and a step size. The step sizes determine how many iterations are taken in each step. A cycle consists of two steps, one step where the learning rate is increasing from minimum to maximum, and one step where the learning rate is decreasing from maximum to minimum. 
+The learning rate range test starts with an initial learning rate, that increases linearly  throughout the training process. 
+
 
 # References
 [1] https://books.google.nl/books?id=achqDwAAQBAJ&printsec=frontcover&dq=deep+learning&hl=en&sa=X&ved=0ahUKEwjoypnIhd7gAhVD7eAKHYueAj8Q6AEIOjAC#v=onepage&q=deep%20learning&f=false 
