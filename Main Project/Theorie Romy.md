@@ -37,7 +37,7 @@ https://towardsdatascience.com/dont-use-dropout-in-convolutional-networks-81486c
 
 _ZSO 20-03_
 
-Onderstaand puntjes die handig zijn voor in de Methode. Bovendien kunnen sommige dingen misschien worden gebruikt om onze code te verduidelijken. 
+Onderstaande puntjes zijn handig voor in de Methode. Bovendien kunnen sommige dingen misschien worden gebruikt om onze code te verduidelijken. 
 * The model type that we will be using is Sequential. Sequential is the easiest way to build a model in Keras. It allows you to build a model layer by layer.
 * We use the ‘add()’ function to add layers to our model.
 * Conv2D layers are convolutional layers that will deal with the input images, which are seen as 2D matrices.
