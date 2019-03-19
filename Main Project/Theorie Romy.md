@@ -54,7 +54,7 @@ The learning rate measures how fast the optimal weights are calculated. A smalle
 With the loss function it can be evaluated how good the predicted probabilities are. It should return low values for good predictions. For our loss function we used 'binary_crossentropy'. The performance of a classification model whose output is a probability value between 0 and 1 can be measured by cross-entropy loss. In this case it is binary, because we are training a binary classifier. [3]
 To see the accuracy score on the validation set when training the model, we use the 'accuracy' metric.
 
-#### training the model
+#### Training the model
 We use model.fit() to train our model. We have three epochs, which means that the model will cycle three times trough the data. The model will improve up to a certain point if you run more epochs. After that certain point, the model will stop improving during each epoch. [2] --> WILLEN WIJ HET BIJ 3 HOUDEN OF DAARIN OOK NOG TESTEN?
 
 
