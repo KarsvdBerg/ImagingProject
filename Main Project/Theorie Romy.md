@@ -50,9 +50,14 @@ To compile the model three parameters are taken, namely an optimizer, a loss and
 model.compile(SGD(lr=0.01, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy']) 
 
 The optimizer controls the learning rate. We will be using the Stochastic gradient descent (SGD).
-The learning rate measures how fast the optimal weights are calculated. A smaller learning rate can lead to more precise weights, but it will take longer to determine them. 
+The learning rate measures how fast the optimal weights are calculated. A smaller learning rate can lead to more precise weights, but it will take longer to determine them. [2]
 With the loss function it can be evaluated how good the predicted probabilities are. It should return low values for good predictions. For our loss function we used 'binary_crossentropy'. The performance of a classification model whose output is a probability value between 0 and 1 can be measured by cross-entropy loss. In this case it is binary, because we are training a binary classifier. [3]
-[2]
+To see the accuracy score on the validation set when training the model, we use the 'accuracy' metric.
+
+#### training the model
+We use model.fit() to train our model. We have three epochs, which means that the model will cycle three times trough the data. The model will improve up to a certain point if you run more epochs. After that certain point, the model will stop improving during each epoch. [2] --> WILLEN WIJ HET BIJ 3 HOUDEN OF DAARIN OOK NOG TESTEN?
+
+
 ## References
 [1] https://medium.com/cracking-the-data-science-interview/the-10-deep-learning-methods-ai-practitioners-need-to-apply-885259f402c1 
 [2] https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5
