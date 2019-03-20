@@ -8,9 +8,9 @@ Deep learning is a machine-learning technology that makes use multiple layers to
 
 In this research, a deep-learning model for the detection of metastases in lympph nodes will be elaborately assessed and evaluated. 
 
-[1] WHO
-[2] Donegan, W.L., 1997. Tumor-related prognostic factors for breast cancer. CA: a cancer journal for clinicians, 47.
-[3] Liu, Y., Gadepalli, K., Norouzi, M., Dahl, G.E., Kohlberger, T. et al. 2017. Detecting Cancer Metastases on Gigapixel Pathalogy Images.
-[4] Madabhushi, A. and Lee, G., 2016. Image analysis and machine learning in digital pathology: Challenges and opportunities. Medical Image Analysis, 33.
-[5] Lecun, Y., Bengio, Y., Hinton, G. (2015) Deep Learning. Nature. Vol. 52. May 2015.
+[1] WHO <br/>
+[2] Donegan, W.L., 1997. Tumor-related prognostic factors for breast cancer. CA: a cancer journal for clinicians, 47. <br/>
+[3] Liu, Y., Gadepalli, K., Norouzi, M., Dahl, G.E., Kohlberger, T. et al. 2017. Detecting Cancer Metastases on Gigapixel Pathalogy Images. <br/>
+[4] Madabhushi, A. and Lee, G., 2016. Image analysis and machine learning in digital pathology: Challenges and opportunities. Medical Image Analysis, 33.<br/>
+[5] Lecun, Y., Bengio, Y., Hinton, G. (2015) Deep Learning. Nature. Vol. 52. May 2015.<br/>
 
