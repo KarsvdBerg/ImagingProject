@@ -55,7 +55,7 @@ With the loss function it can be evaluated how good the predicted probabilities 
 To see the accuracy score on the validation set when training the model, we use the 'accuracy' metric.
 
 #### Training the model
-We use model.fit() to train our model. We have three epochs, which means that the model will cycle three times trough the data. The model will improve up to a certain point if you run more epochs. After that certain point, the model will stop improving during each epoch. [2] --> WILLEN WIJ HET BIJ 3 HOUDEN OF DAARIN OOK NOG TESTEN?
+We use model.fit() to train our model. We have three epochs, which means that the model will cycle three times through the data. The model will improve up to a certain point if you run more epochs. After that certain point, the model will stop improving during each epoch. [2] --> WILLEN WIJ HET BIJ 3 HOUDEN OF DAARIN OOK NOG TESTEN?
 
 #### Making predictions
 We use the ROC curve to see the actual predictions are model has made. 
