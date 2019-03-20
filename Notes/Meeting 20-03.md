@@ -1,3 +1,5 @@
+UPDATE: alles voor het verslag in Overleaf
+
 Stappenplan model:
 - Learning rate code Roderick --> grafiekjes met overfitting etc
 - Aanpassingen in het model voor overfitting --> Kars
