@@ -19,7 +19,7 @@ Save the model and weights
 Checkpoint, tensorboard callbacks
 Next, the model will be trained by model.fit(). Three epochs are used, which means that the model will cycle three times trough the data. The model will improve up to a certain point if you run more epochs. After that certain point, the model will stop improving during each epoch. [6] 
 The ROC curve is used to see the actual predictions the model has made. The ROC curve is the 'Receiver Operating Characteristic' curve and is used to evaluate the quality of the classifier output. The curve has the false positive rates on the x-axis and the true positives on the y-axis. A larger area under the curve is usually better. [8]
-References
-[6] https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5   
-[7] https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html
+## References
+[6] https://towardsdatascience.com/building-a-convolutional-neural-network-cnn-in-keras-329fbbadc5f5   </br>
+[7] https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html </br>
 [8] https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html
