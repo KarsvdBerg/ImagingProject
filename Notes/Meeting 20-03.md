@@ -4,6 +4,7 @@ Stappenplan model:
 - Opnieuw learning rate code toepassen --> Roderick
 
 To Do:
+
 Kars:
 -model aanpassen tegen overfitting --> checken via Tensorboard
 - code ROC in assignment 3 zetten
