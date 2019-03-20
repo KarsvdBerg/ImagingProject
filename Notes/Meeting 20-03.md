@@ -23,3 +23,6 @@ Romy & Suzanne:
 Janneke:
 - Assignment 1 & 2 controleren en inleveren 
 -
+
+Iedereen:
+- Voor woensdag 27 maart peerreview af.
