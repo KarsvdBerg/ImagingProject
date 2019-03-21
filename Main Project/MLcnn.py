@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 21 18:03:06 2019
+
+@author: 
+"""
+
 import os
 import numpy as np
 
@@ -10,6 +17,7 @@ from keras.layers import Dense, Flatten
 from keras.layers import Conv2D, MaxPool2D
 from keras.optimizers import SGD
 from keras.callbacks import ModelCheckpoint, TensorBoard
+import keras
 
 # unused for now, to be used for ROC analysis
 from sklearn.metrics import roc_curve, auc
@@ -43,7 +51,7 @@ def get_pcam_generators(base_dir, train_batch_size=32, val_batch_size=64, test_b
      return train_gen, val_gen
 
 
-def get_model(kernel_size=(3,3), pool_size=(2,2)):
+def get_model(lr, kernel_size=(3,3), pool_size=(2,2)):
 
      # build the model
      model = Sequential()
@@ -67,42 +75,69 @@ def get_model(kernel_size=(3,3), pool_size=(2,2)):
 
 
      # compile the model
-     model.compile(SGD(lr=0.01, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy'])
+     model.compile(SGD(lr, momentum=0.95), loss = 'binary_crossentropy', metrics=['accuracy'])
 
      return model
+ 
+def ExportData(VALlossWhileTraining, VALaccuracyWhileTraining, lossWhileTraining, accuracyWhileTraining, lr):
+    filename = "output" + str(lr)[2:] + ".csv"
+    file = open(filename, "w")
+    file.write("Validation Loss" + ","+ "Validation Accuracy" + "," + "loss" + "," + "Accuracy" + "," + "Epoch" + "\n")
+    for x in range(len(VALlossWhileTraining[0])):
+        string = str(VALlossWhileTraining[0][x]) + "," + str(VALaccuracyWhileTraining[0][x]) + "," + str(lossWhileTraining[0][x]) + "," + str(accuracyWhileTraining[0][x]) + "," + str(x+1) + "\n"
+        file.write(string)
+    file.close()
 
 
 # get the model
-model = get_model()
-
-
-# get the data generators
-train_gen, val_gen = get_pcam_generators('/Users/s150055/Documents/TUe/Programming/Python/Imaging')
-
-
-# save the model and weights
-model_name = 'Test'
-model_filepath = model_name + '.json'
-weights_filepath = model_name + '_weights.hdf5'
-
-model_json = model.to_json() # serialize model to JSON
-with open(model_filepath, 'w') as json_file:
-    json_file.write(model_json)
-
-
-# define the model checkpoint and Tensorboard callbacks
-checkpoint = ModelCheckpoint(weights_filepath, monitor='val_loss', verbose=1, save_best_only=True, mode='min')
-tensorboard = TensorBoard(os.path.join('logs', model_name))
-callbacks_list = [checkpoint, tensorboard]
-
-
-# train the model
-train_steps = train_gen.n//train_gen.batch_size
-val_steps = val_gen.n//val_gen.batch_size
-
-history = model.fit_generator(train_gen, steps_per_epoch=train_steps,
-                    validation_data=val_gen,
-                    validation_steps=val_steps,
-                    epochs=3,
-                    callbacks=callbacks_list)
-
+learningRate = [0.001, 0.0005, 0.0001]
+epoch1 = [50, 100, 200]
+b = 0     
+for lr in learningRate:
+    VALlossWhileTraining = []
+    VALaccuracyWhileTraining = []
+    lossWhileTraining = []
+    accuracyWhileTraining = []
+    num = epoch1[b]
+    print(lr)
+    model = get_model(lr)
+    
+    
+    # get the data generators
+    train_gen, val_gen = get_pcam_generators(r'C:\Users\stoer\Imaging')
+    
+    
+    # save the model and weights
+    model_name = 'Test'
+    model_filepath = model_name + '.json'
+    weights_filepath = model_name + '_weights.hdf5'
+    
+    model_json = model.to_json() # serialize model to JSON
+    with open(model_filepath, 'w') as json_file:
+        json_file.write(model_json)
+    
+    
+    # define the model checkpoint and Tensorboard callbacks
+    checkpoint = ModelCheckpoint(weights_filepath, monitor='val_loss', verbose=1, save_best_only=True, mode='min')
+    tensorboard = TensorBoard(os.path.join('logs', model_name))
+    callbacks_list = [checkpoint, tensorboard]
+    
+    
+    # train the model
+    train_steps = train_gen.n//train_gen.batch_size
+    val_steps = val_gen.n//val_gen.batch_size
+    
+    history = model.fit_generator(train_gen, steps_per_epoch=train_steps,
+                        validation_data=val_gen,
+                        validation_steps=val_steps,
+                        epochs=num,
+                        callbacks=callbacks_list)
+    
+    VALlossWhileTraining.append(history.history.get('val_loss'))
+    lossWhileTraining.append(history.history.get('loss'))
+    VALaccuracyWhileTraining.append(history.history.get('val_acc'))
+    accuracyWhileTraining.append(history.history.get('acc'))
+    ExportData(VALlossWhileTraining, VALaccuracyWhileTraining, lossWhileTraining, accuracyWhileTraining, lr)
+    f1 = r"C:\\Users\\stoer\\Imaging\\results" + str(lr)[2:] + ".hdf5"
+    keras.engine.saving.save_model(model, f1, overwrite=True, include_optimizer=True)
+    b += 1
