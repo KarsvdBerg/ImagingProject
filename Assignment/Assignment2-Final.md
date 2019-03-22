@@ -17,10 +17,7 @@ Table 1
 | 1 | 192 | 0.1618 | 0.9533 |
 | 1 | 256| 0.1668  | 0.9499 |
 
-
-In table 2 a different amount of layers with 64 neurons in 1 layer is applied.
-
-Table 2
+Table 2: a different amount of layers with 64 neurons in 1 layer is applied
 
 | Number of layers | Loss test | Accuracy test | Loss train  | Accuracy train |
 | --- | --- | --- | --- | --- |
