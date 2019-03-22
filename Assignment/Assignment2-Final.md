@@ -5,7 +5,7 @@ The results can be seen in the tables below.
 
 Table 1
 
-| Layers | Neurons per layer | Validation loss | Validation accuracy |
+| Layers | Neurons per layer | Loss test | Accuracy test |
 | --- | --- | --- | --- |
 | 1   | 64 | 0.1869 | 0.9476 |
 | 2 | 64 | 0.1887 | 0.9443 |
@@ -52,7 +52,9 @@ Table 3
 |5	|0.12292111209668219	|0.9609|	0.10251085377815697	|0.9705370370370371|
 |Standard deviation|	0.002465|	0.00160156	|0.00482022	|0.00121056|
 
-Now the distribution of neurons in 3 layers is changes and the total number of neurons is kept at 192
+Now the distribution of neurons in 3 layers is changed and the total number of neurons is kept at 192. The results of this can be seen in table 4.
+
+Table 4
 
 |Number of neurons layer 1|	Number of neurons layer 2|	Number of neurons layer 3	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
 | --- | --- | --- | --- | --- | --- | --- |
