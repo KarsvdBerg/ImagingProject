@@ -1,5 +1,6 @@
 TO DO:
 
+- onderzoeksvraag toevoegen aan introductie: Suzanne
 - introductie controleren : Janneke, Roderick, Kars
 - Methode afmaken: Romy, Suzanne
 - Resultaten in verslag
@@ -9,6 +10,7 @@ TO DO:
 - nadenken discussiepuntjes : Iedereen
 
 - Code assignment 1 aanleveren: Kars
+- Plaatjes van resultaten in assignment 1 zetten: Kars
 - Assignment 1 inleveren: Romy
 - Assignment 2 inleveren: Romy
 
