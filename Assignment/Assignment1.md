@@ -20,7 +20,11 @@ A neural network that works with small images for registration is Fully Convolut
 [5] Shelhamer, E., Long, J., & Darrell, T. (2017). Fully Convolutional Networks for Semantic Segmentation. IEEE Transactions on Pattern Analysis and Machine Intelligence, 39(4), 640–651. https://doi.org/10.1109/TPAMI.2016.2572683
 
 ## Exercise 4
+There are histopathologic scan with an purple staining. Within one classification, the images differ a lot. By just looking at them no clear signs of metastases could be found. No clear distoinction could be made when looking at the two different classes. The features pathologist look at are spatial arrangement of cells, morphometric characteristics of the nuclei, the presence of tubules, and the mitotic count [6]. 
 
+**References**
+
+[6] Karssemeijer, N. 2019. Breast Histology. http://www.diagnijmegen.nl/index.php/Breast_Histology
 CODE:
 ```
 
