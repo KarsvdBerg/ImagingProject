@@ -1,6 +1,6 @@
 # Assignment 2
 ## Exercise 1
-For this exercise the number of layers and the number of layers were changed to analyse the loss and accuracy.
+For this exercise the number of layers and the number of neurons per layer were changed to analyse the loss and accuracy.
 
 Table 1
 
