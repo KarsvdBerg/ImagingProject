@@ -30,7 +30,5 @@ CODE:
 
 
 
-
-```
 ## Exercise 5
 An account has been made and our team name kaggle is : Imaging TU/e group 2
