@@ -1,5 +1,8 @@
 # Assignment 2
 ## Exercise 1
+For this exercise the number of layers and the number of layers were changed to analyse the loss and accuracy.
+
+Table 1
 
 | Layers | Neurons per layer | Loss | Accuracy |
 | --- | --- | --- | --- |
@@ -14,7 +17,10 @@
 | 1 | 192 | 0.1618 | 0.9533 |
 | 1 | 256| 0.1668  | 0.9499 |
 
-Using a different amount of layers with 64 neurons in 1 layer
+
+In table 2 a different amount of layers with 64 neurons in 1 layer is applied.
+
+Table 2
 
 | Number of layers | Loss test | Accuracy test | Loss train  | Accuracy train |
 | --- | --- | --- | --- | --- |
@@ -28,6 +34,7 @@ Using a different amount of layers with 64 neurons in 1 layer
 | 8 |	0.13257	| 0.9638	| 0.084182 |	0.97418 |
 | 9 |	0.13278	| 0.9579	| 0.079226 |	0.975 |
 | 10 |	0.11001 |	0.9674	| 0.058272	|0.98288 |
+
 
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1A.png "Logo Title Text 1")
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1B.png "Logo Title Text 1")
