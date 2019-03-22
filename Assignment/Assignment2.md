@@ -60,10 +60,12 @@ The best model the model with 3 layers with a  110 41 41 distribution. This had 
 
 
 ## Exercise 2
+
 1.	loss: 0.3237 - acc: 0.9104 - val_loss: 0.3462 - val_acc: 0.9023
 2.	loss: 0.1105 - acc: 0.9674 - val_loss: 0.1362 - val_acc: 0.9610
 3.	loss: 0.2696 - acc: 0.9248 - val_loss: 0.3037 - val_acc: 0.9135
 
+The second model had the lowest loss and the highest accuracy and with that had the best overall performance. The first one had the worst performance with the lowest accuracy and the highest loss. When comparing the second and third model the overall perfocmance of the second model is better. Also, the effect of linear activation is that there is a big difference between the training and validation loss, which can suggest that the model had overfit on the training batch.
 
 
 ## Exercise 3
