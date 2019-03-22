@@ -5,7 +5,7 @@ The results can be seen in the tables below.
 
 Table 1
 
-| Layers | Neurons per layer | Loss | Accuracy |
+| Layers | Neurons per layer | Validation loss | Validation accuracy |
 | --- | --- | --- | --- |
 | 1   | 64 | 0.1869 | 0.9476 |
 | 2 | 64 | 0.1887 | 0.9443 |
@@ -39,7 +39,9 @@ This can also be seen in the graphs below.
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1A.png "Logo Title Text 1")
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1B.png "Logo Title Text 1")
 
-With more layers, the accuracy generally goes up and the loss generally goes down. To see if the found differences are relevant or if the standart deviation is around the same value  
+With more layers, the accuracy generally goes up and the loss generally goes down. To see if the found differences are relevant or if the standart deviation is around the same value multiple measurements with the same model has been done. The results can be seen in table 3.
+
+Table 3
 
 |Number of measurement 	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
 | --- | --- | --- | --- | --- |
