@@ -33,11 +33,13 @@ Table 2: a different amount of layers with 64 neurons in 1 layer is applied
 | 9 |	0.13278	| 0.9579	| 0.079226 |	0.975 |
 | 10 |	0.11001 |	0.9674	| 0.058272	|0.98288 |
 
+In general the loss decreases when you add more layers. However with too many layers, the loss will increase again.
+This can also be seen in the graphs below.
 
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1A.png "Logo Title Text 1")
 ![alt text](https://github.com/KarsvdBerg/ImagingProject/blob/master/Assignment2.1B.png "Logo Title Text 1")
 
-With more layers, the accuracy generally goes up and the loss generally goes down. To see if the found differences are relevant or if the standart deviation is around the same value. 
+With more layers, the accuracy generally goes up and the loss generally goes down. To see if the found differences are relevant or if the standart deviation is around the same value  
 
 |Number of measurement 	|Loss test	|Accuracy test	|Loss train	|Accuracy train|
 | --- | --- | --- | --- | --- |
