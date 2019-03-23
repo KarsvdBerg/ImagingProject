@@ -14,7 +14,7 @@ TO DO:
 - Assignment 1 inleveren: Romy
 - Assignment 2 inleveren: Romy
 
-Onderzoeksvraag:
+Research question:
 How does the learning rate and the addition of extra layers influence overfitting of the model?
 
 Method:
