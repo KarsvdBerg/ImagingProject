@@ -9,6 +9,9 @@ A neural network that works with small images for registration is Fully Convolut
 ## Exercise 4
 There are histopathologic scan with an purple staining. Within one classification, the images differ a lot. By just looking at them no clear signs of metastases could be found. No clear distoinction could be made when looking at the two different classes. The features pathologist look at are spatial arrangement of cells, morphometric characteristics of the nuclei, the presence of tubules, and the mitotic count [6]. 
 
+Below our code can be seen that we used to show images with and without metasases.
+The code plots 20 images in total. The images of the left column are with metasases and the images of the right column are without metasases.
+
 ```
 import numpy as np 
 import matplotlib.pyplot as plt 
