@@ -36,7 +36,7 @@ plt.show()
 ## Exercise 5
 An account has been made and our team name kaggle is : Imaging TU/e group 2
 
-**References**
+## References 
 [1] Donegan, W.L., 1997. Tumor-related prognostic factors for breast cancer. CA: a cancer journal for clinicians, 47.
 
 [2] Madabhushi, A. and Lee, G., 2016. Image analysis and machine learning in digital pathology: Challenges and opportunities. Medical Image Analysis, 33.
