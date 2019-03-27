@@ -43,6 +43,20 @@ When training with the weights set to *None* the validation-loss and -accuracy i
   Epoch 9/10
   225/225 [==============================] - 47s 209ms/step - loss: 0.4098 - acc: 0.8212 - val_loss: 0.5158 - val_acc: 0.8075
 ```
+Using transfer learning, and thus adding the *imagenet*, improved the validation-loss and accuracy of this model. The results of assignment 3 (without transfer learning) can be seen below.
+```
+Epoch 1/3 
+4500/4500 [==============================] - 308s 68ms/step - loss: 0.4637 - acc: 0.7831 - val_loss: 0.4312 - val_acc: 0.7996
+Epoch 00001: val_loss improved from inf to 0.43117 
+
+Epoch 2/3 4500/4500 [==============================] - 300s 67ms/step - loss: 0.3930 - acc: 0.8255 - val_loss: 0.3619 - val_acc: 0.8418117/4500 [==========================>...] - ETA: 23s - loss: 0.3949 - acc: 0.8246
+Epoch 00002: val_loss improved from 0.43117 to 0.36187
+
+Epoch 3/3 4500/4500 [==============================] - 307s 68ms/step - loss: 0.3434 - acc: 0.8512 - val_loss: 0.3469 - val_acc: 0.8501661/4500 [=======================>......] - ETA: 51s - loss: 0.3464 - acc: 0.8498 - ETA: 36s - loss: 0.3458 - acc: 0.8503
+Epoch 00003: val_loss improved from 0.36187 to 0.34690,
+```
+It can be observed that adding transfer learning to this dataset makes a substantial improvement, decreasing the validation loss from **0.31994** (without) to **0.1710** (with) and increasing the validation accuracy form **0.8501** (without) to **0.9337** (with). 
+
 ## Exercise 3
 Dropout is a regulation method that prevents neural networks from overfitting [2]. In this technique randomly selects neurons that are ignored during training. By doing this you create a neural network that won't be to specialized to the training data that is used. When leaving certain neurons out of the training other neighbouring neurons have to step in. The effect is that the network  becomes less sensitive to the specific weights of neurons.[3] Removing the dropout layer in the neural network causes an increase in the loss, and thus a worse model. The validation loss has an optimal and final value of **val_loss = 0.6537** with a accuracy of **val_acc = 0.7538**. The training loss has an optimal and final value of **loss = 0.4009** with an accuracy of **acc = 0.8208**. The results show that 
 **loss > val_loss** which could be linked to overfitting.
