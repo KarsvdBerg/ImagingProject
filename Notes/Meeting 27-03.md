@@ -7,7 +7,7 @@ Introductie:
 Methode:
 - verder ingaan op de conditions op theoretisch gebied. (*Suzanne*)
 - Plaatje opbouw model maken + toevoegen aan verslag --> even kort samenvattend stukje erbij schrijven (*Kars*)
-- Bij validation nog zeggen dat we naar accuracy kijken van 0.95
+- Bij validation nog zeggen dat we naar accuracy kijken van 0.95 (Romy)
 - optimization uitbreiden 
 - iedereen methode controleren
 
