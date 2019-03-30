@@ -2,18 +2,18 @@ TO DO:
 
 - Abstract afmaken: *Romy*
 - Introductie comments verwerken: *Suzanne*
-- Materiaal & Methode: comments verwerken over minimale loss en hoe we onze grafieken opbouwen: * Janneke *
+- Materiaal & Methode: comments verwerken over minimale loss en hoe we onze grafieken opbouwen: *Janneke*
 - Materiaal & Methode: schema Kars
 
-- Resultaten afmaken: * Janneke*
+- Resultaten afmaken: *Janneke*
 - Conclusie: *Roderick*
 
 - Discussie: 
   - Wat betekenen de resultaten +vergelijken met literatuur --> *Kars*
   - Limitations of our research beperkt aantal modellen /lr omdat het anders te lang duurt --> *Suzanne*
   - Wat betekenen onze resultaten voor algemeen model bouwen --> *Janneke*
-  - Generally how to prevent overfitting --> * Suzanne*
-  - Future recommendations --> * Roderick*  Hierbij meenemen: transfer learning -> pretrained models
+  - Generally how to prevent overfitting --> *Suzanne*
+  - Future recommendations --> *Roderick*  Hierbij meenemen: transfer learning -> pretrained models
 
 - Appendix: plaatjes toevoegen *Janneke*
 - Bronnen checken + bronvermelding goedzetten: *Romy*
