@@ -1,12 +1,12 @@
 TO DO:
 
-Abstract afmaken: *Romy*
-Introductie comments verwerken: *Suzanne*
-Materiaal & Methode: comments verwerken over minimale loss en hoe we onze grafieken opbouwen: * Janneke *
-Materiaal & Methode: schema Kars
+- Abstract afmaken: *Romy*
+- Introductie comments verwerken: *Suzanne*
+- Materiaal & Methode: comments verwerken over minimale loss en hoe we onze grafieken opbouwen: * Janneke *
+- Materiaal & Methode: schema Kars
 
-Resultaten afmaken: * Janneke*
-Conclusie: *Roderick*
+- Resultaten afmaken: * Janneke*
+- Conclusie: *Roderick*
 
 Discussie: 
 - Wat betekenen de resultaten +vergelijken met literatuur --> *Kars*
