@@ -12,7 +12,7 @@ TO DO:
   - Wat betekenen de resultaten +vergelijken met literatuur --> *Kars*
   - Limitations of our research beperkt aantal modellen /lr omdat het anders te lang duurt --> *Suzanne*
   - Wat betekenen onze resultaten voor algemeen model bouwen --> *Janneke*
-  - Generally how to prevent overfitting --> *Suzanne*
+  - Generally how to prevent overfitting --> *Romy*
   - Future recommendations --> *Roderick*  Hierbij meenemen: transfer learning -> pretrained models
 
 - Appendix: plaatjes toevoegen *Janneke*
