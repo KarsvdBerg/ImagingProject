@@ -95,5 +95,5 @@ Epoch 00003: val_loss improved from 0.34402 to 0.31994
 
 ## Exercise 3
 
-[1] https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html 
+[1] https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html \
 [2] https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
