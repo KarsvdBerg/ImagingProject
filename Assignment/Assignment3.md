@@ -94,6 +94,12 @@ Epoch 00003: val_loss improved from 0.34402 to 0.31994
 ```
 
 ## Exercise 3
-
+Running the *cnn.py* script, that we recieved, together with the code for computing the ROC curve results in an AUC score of 0.94. With the following ROC curve: \
+\
+![ROC_Assignment3](https://user-images.githubusercontent.com/46131144/55402977-05d5f580-5555-11e9-9bfb-5528775f2492.png)
+\
+We submitted or model with the *kaggle_submission.py* script. 
+Our public score on kaggle (so on 50% of the test data) is 0.93, not that far of our score obtained from the validation set in *cnn.py* script. However the private score on kaggle (on 100% of the test data) is 0.89 for this model. This is an substaintial difference compared to the score of the calidation set in our script. 
+## References 
 [1] https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html \
 [2] https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5
