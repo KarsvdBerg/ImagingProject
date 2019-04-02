@@ -92,7 +92,8 @@ Epoch 3/3
 4500/4500 [==============================] - 319s 71ms/step - loss: 0.3538 - acc: 0.8462 - val_loss: 0.3199 - val_acc: 0.8626 - ETA: 2:30 - loss: 0.3606 - acc: 0.8421
 Epoch 00003: val_loss improved from 0.34402 to 0.31994
 ```
-
+By adding an other layer to the model the validation accuracy got higher (from 0.85 to 0.86) and the validation loss got lower 
+(form 0.35 to 0.32). 
 ## Exercise 3
 Running the *cnn.py* script, that we recieved, together with the code for computing the ROC curve results in an AUC score of 0.94. With the following ROC curve: \
 \
