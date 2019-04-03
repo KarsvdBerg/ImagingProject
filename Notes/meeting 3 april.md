@@ -13,7 +13,7 @@ Methode aanpassen:
 - Bronnen controleren + goed zetten
 
 #### Suzanne
-- - Abstract afmaken
+- Abstract afmaken
 
 #### Janneke
 - Kleuren grafieken oud/nieuw model aanpassen
