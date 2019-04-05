@@ -55,7 +55,7 @@ def get_model(lr, kernel_size=(3,3), pool_size=(2,2)):
      model.add(MaxPool2D(pool_size = (3,3)))
        
      model.add(Flatten())
-     model.add(Dense(128, activation = 'relu'))
+     model.add(Dense(64, activation = 'relu'))
      model.add(Dense(64, activation = 'relu'))
      model.add(Dense(1, activation = 'sigmoid'))
 
